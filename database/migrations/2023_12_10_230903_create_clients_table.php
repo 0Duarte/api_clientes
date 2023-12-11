@@ -19,6 +19,7 @@ return new class extends Migration
             $table->date('date_birth');
             $table->text('adress');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
