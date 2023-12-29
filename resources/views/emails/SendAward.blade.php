@@ -57,7 +57,6 @@
         <p>Utilize este código no momento do pagamento e aproveite o desconto!</p>
 
         <p>Aproveite sua refeição!</p>
-        <p>Atenciosamente,<br>[Seu Nome]<br>[Seu Cargo]<br>iFood</p>
     </div>
 </body>
 </html>
