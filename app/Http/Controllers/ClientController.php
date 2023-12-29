@@ -46,7 +46,7 @@ class ClientController extends Controller
                 'email'=> 'email|required|unique:clients',
                 'date_birth' => 'date_format:Y-m-d|required',
                 'cpf'=> 'string|required|unique:clients',
-                'adress'=> 'string|required'
+                'address'=> 'string|required'
             ]);
             $client = Client::create($data);
             return $client;
@@ -56,7 +56,7 @@ class ClientController extends Controller
     }
     public function update($id, Request $request){
         try{
-            $data = $request->only('name', 'email', 'date_birth', 'adress');
+            $data = $request->only('name', 'email', 'date_birth', 'address');
 
             $request->validate([
                 'name' => 'string',

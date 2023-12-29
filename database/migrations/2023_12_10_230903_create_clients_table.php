@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('cpf',30)->unique();
             $table->date('date_birth');
-            $table->text('adress');
+            $table->text('address');
             $table->timestamps();
             $table->softDeletes();
         });
